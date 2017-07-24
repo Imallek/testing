@@ -699,7 +699,7 @@ Asteroid = function () {
         roid.points.reverse();
       }
       roid.vel.rot = Math.random() * 2 - 1;
-      roid.move(roid.scale * 3); // give them a little push
+      roid.move(roid.scale * 10); // give them a little push
       Game.sprites.push(roid);
     }
   }
